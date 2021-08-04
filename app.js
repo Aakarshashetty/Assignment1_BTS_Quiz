@@ -16,7 +16,8 @@ index = readlineSync.keyInSelect(options,"Select One Option Please...");
 		score++;
 	}
 	else{
-		console.log(chalk.red.bold("Ops Wrong answer!"));		console.log("---------------------------------------");
+		console.log(chalk.red.bold("Ops Wrong answer!"));		
+        console.log("---------------------------------------");
 	}
 }
 var questions = [
